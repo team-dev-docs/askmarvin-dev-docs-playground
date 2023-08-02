@@ -1,0 +1,10 @@
+{
+    "name": "Frontend Environment",
+    "image": "node:14",
+    "forwardPorts": [3000],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "cd frontend && npm install"
+  }
+  

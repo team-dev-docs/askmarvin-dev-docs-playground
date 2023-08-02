@@ -1,0 +1,14 @@
+{
+  "name": "Backend Environment",
+  "image": "node:14",
+  "forwardPorts": [5000],
+  "workspaceFolder": "/workspaces/executable-examples/backend",
+  "postCreateCommand": "cd backend && npm install",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "backend/index.js"
+      ]
+    }
+  }
+}
