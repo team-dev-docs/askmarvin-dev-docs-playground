@@ -1,7 +1,8 @@
 {
   "name": "ai_classifiers Environment",
-  "image": "node:14",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "workspaceFolder": "/workspaces/askmarvin-dev-docs-playground",
+  "postCreateCommand": "cd python/setup && pip install -r ../requirements.txt",
   "extensions": [
     "dev-docs.dev-docs"
   ],
