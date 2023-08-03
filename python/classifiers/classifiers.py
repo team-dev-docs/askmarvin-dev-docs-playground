@@ -1,6 +1,9 @@
-python
+
 from marvin import ai_classifier
 from enum import Enum
+
+marvin.settings.openai.api_key = "YOUR OPENAI KEY"
+
 @ai_classifier
 class AppRoute(Enum):
     """Represents distinct routes command bar for a different application"""
