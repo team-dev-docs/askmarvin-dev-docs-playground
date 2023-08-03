@@ -3,7 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "workspaceFolder": "/workspaces/askmarvin-dev-docs-playground",
   "postCreateCommand": "cd python && pip install -r requirements.txt && cd setup",
-    
   "extensions": [
     "dev-docs.dev-docs"
   ],
