@@ -14,5 +14,7 @@ Paste your key or use an .env variable to get started.
 then run the code with
 
 ```
+
 python python/setup/setup.py
+
 ```
