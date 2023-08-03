@@ -1,0 +1,16 @@
+{
+  "name": "classifier_tutorial Environment",
+  "image": "node:14",
+  "forwardPorts": [
+    5000
+  ],
+  "workspaceFolder": "/workspaces/askmarvin-dev-docs-playground/python/classifier_tutorial",
+  "postCreateCommand": "cd backend && npm install",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "python/classifier_tutorial/classifier_tutorial.py"
+      ]
+    }
+  }
+}
