@@ -1,0 +1,16 @@
+{
+  "name": "classifiers Environment",
+  "image": "node:14",
+  "forwardPorts": [
+    5000
+  ],
+  "workspaceFolder": "/workspaces/askmarvin-dev-docs-playground/python/classifiers",
+  "postCreateCommand": "cd backend && npm install",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "python/classifiers/classifiers.py"
+      ]
+    }
+  }
+}
