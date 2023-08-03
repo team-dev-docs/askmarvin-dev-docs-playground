@@ -1,0 +1,15 @@
+{
+  "name": "setup Environment",
+  "image": "node:14",
+  "workspaceFolder": "/workspaces/askmarvin-dev-docs-playground",
+  "extensions": [
+    "dev-docs.dev-docs"
+  ],
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "python/setup/setup.py"
+      ]
+    }
+  }
+}
