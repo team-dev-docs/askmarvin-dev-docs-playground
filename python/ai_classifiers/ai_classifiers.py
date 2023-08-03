@@ -1,3 +1,4 @@
+import marvin
 from marvin import ai_classifier
 from enum import Enum
 
