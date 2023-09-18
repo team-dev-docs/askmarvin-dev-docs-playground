@@ -4,10 +4,15 @@ This code is importing the ai_classifier and enum modules from marvin. It then s
 
 # Lets run it
 
-Replace the API Key value with your OPENAI key and then run the command below:
+Export the API Key value with your OPENAI key and then run the command below:
 
 ```
+export MARVIN_OPENAI_API_KEY=&lt;your API key&gt;
+```
+```
+
 python python/ai_classifiers/ai_classifiers.py
+
 ```
 
 Have fun playing experimenting!
